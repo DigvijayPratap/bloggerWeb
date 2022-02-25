@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.webName{
+    display: inline;
+    line-height: 100px;
+    margin-left: 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+    border: 1px solid rgb(224, 208, 183);
+    color: aqua;
+    padding: 10px;
+    margin-right: 40px;
+}
+.webName:hover{
+    cursor: pointer;
+    background-color: rgb(223, 216, 207);
+    color: black;
+}
+ul{
+   
+    display: inline;
+    word-spacing:10 px;
+}
+li{
+    display: inline;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.active{
+    border-radius: 5px;
+    border: 1px solid ghostwhite;
+    background-color: rgb(31, 31, 180);
+}
+nav{
+    background-color: rgb(19, 19, 114);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+a{
+    color: aliceblue;
+     padding: 10px;
+     text-decoration: none;
+}
+a:hover{
+    background-color: rgb(67, 59, 141);
+    border-radius: 5px;
+    color: rgb(248, 242, 242)
+}
+.search{
+    float: right;
+    display: inline;
+    line-height: 100px;
+}
+#searchInput{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    font-size: large;
+    outline: none;
+    margin-right: 15px;
+    
+}
+#search{
+    line-height: 40px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    background-color: rgb(123, 126, 123);
+    box-shadow: 5px 5px 5px;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: large;
+}
+#search:hover{
+    cursor:pointer;
+    background-color: rgb(69, 70, 69);
+    box-shadow: none;
+}
+
+/*     ////////////////////// show posts  /////////////////// */
+#posts{
+    background-color: rgb(173, 169, 162);
+    border: 1px solid yellow;
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+}
+.postName{
+ background-color: rgb(173, 169, 162);
+ line-height: 40px;
+ font-weight: bolder;
+ padding-left:10px ;
+}
+.paragraph{
+    background-color: rgb(245, 242, 238);
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+   
+}
+#postControls{
+    width: 100%; 
+    line-height: 50px;
+    background-color: rgb(245, 233, 214);
+}
+
+#edit{
+    background-color: gray;
+    line-height: 20px;
+    font-size: large;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#delete{
+    background-color: red;
+    line-height: 20px;
+    font-size: medium;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius:5px ;
+    box-shadow: 5px 5px 5px;
+    padding: 5px;
+}
+#edit:hover{
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgb(75, 72, 72);
+}
+#delete:hover{
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+   background-color: rgb(131, 15, 15);
+}
+@media (max-width:800px){
+   
+        #posts{
+            width:80%;
+        }
+}
+@media (max-width:600px){
+   
+    #posts{
+        width:90%;
+    }
+}
+@media (max-width:1200px){
+    .pages li{
+        display:none;
+    }
+    .search{
+        margin-right: 80px;
+     }
+}
+@media (max-width:630px){
+    .search{
+       margin-right: 80px;
+    }
+}
+@media (max-width:580px){
+    .search{
+       margin-right: 40px;
+    }
+}
